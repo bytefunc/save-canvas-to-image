@@ -1,0 +1,27 @@
+{
+    "name": "save-canvas-to-image",
+    "version": "0.1.0",
+    "description": "Convert canvas to image and save",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "rimraf dist && babel src --out-dir dist",
+        "dev": "babel src --watch --out-dir dist"
+    },
+    "keywords": [
+        "canvas",
+        "image"
+    ],
+    "author": "bytefunc <bytefunc@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bytefunc/save-canvas-to-image.git"
+    },
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/cli": "^7.0.0-beta.41",
+        "@babel/core": "^7.0.0-beta.41",
+        "@babel/preset-env": "^7.0.0-beta.41",
+        "rimraf": "^2.6.2"
+    }
+}
