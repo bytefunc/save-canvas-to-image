@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "build": "webpack"
+    },
+    "dependencies": {
+        "save-canvas-to-image": "https://github.com/bytefunc/save-canvas-to-image"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-preset-es2015": "^6.24.1"
+    }
+}
