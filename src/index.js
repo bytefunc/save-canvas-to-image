@@ -1,4 +1,4 @@
-export function saveImage(canvas_id, fileName, format) {
+function saveImage(canvas_id, fileName, format) {
     let MIME_TYPE, FILE_EXTENTION;
     if (format.toLowerCase() == "png") {
         MIME_TYPE = "image/png";
@@ -32,18 +32,26 @@ export function saveImage(canvas_id, fileName, format) {
     }
 }
 
-export function saveJPEG(id, fileName) {
+function saveJPEG(id, fileName) {
     saveImage(id, fileName, "jpeg");
 }
 
-export function savePNG(id, fileName) {
+function savePNG(id, fileName) {
     saveImage(id, fileName, "png");
 }
 
-export function saveGIF(id, fileName) {
+function saveGIF(id, fileName) {
     saveImage(id, fileName, "gif");
 }
 
-export function saveWEBP(id, fileName) {
+function saveWEBP(id, fileName) {
     saveImage(id, fileName, "webp");
 }
+
+module.exports = {
+    saveImage: saveImage,
+    saveJPEG: saveJPEG,
+    savePNG: savePNG,
+    saveGIF: saveGIF,
+    saveWEBP: saveWEBP
+};

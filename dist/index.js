@@ -1,14 +1,5 @@
 "use strict";
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.saveImage = saveImage;
-exports.saveJPEG = saveJPEG;
-exports.savePNG = savePNG;
-exports.saveGIF = saveGIF;
-exports.saveWEBP = saveWEBP;
-
 function saveImage(canvas_id, fileName, format) {
   var MIME_TYPE, FILE_EXTENTION;
 
@@ -58,3 +49,11 @@ function saveGIF(id, fileName) {
 function saveWEBP(id, fileName) {
   saveImage(id, fileName, "webp");
 }
+
+module.exports = {
+  saveImage: saveImage,
+  saveJPEG: saveJPEG,
+  savePNG: savePNG,
+  saveGIF: saveGIF,
+  saveWEBP: saveWEBP
+};
