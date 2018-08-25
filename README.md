@@ -11,6 +11,9 @@ or
 
 yarn add save-canvas-to-image
 ```
+## Demo
+
+[View the demo page](https://bytefunc.github.io/save-canvas-to-image/docs/demo/)
 
 ## Usage
 
