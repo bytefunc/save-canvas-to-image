@@ -1,6 +1,6 @@
 # save-canvas-to-image
 
-Convert canvas to image and save
+Convert canvas to image and the browser start downloading to image
 
 ## Installation
 

@@ -1,7 +1,7 @@
 {
     "name": "save-canvas-to-image",
     "version": "0.1.0",
-    "description": "Convert canvas to image and save",
+    "description": "Convert canvas to image and the browser start downloading to image",
     "main": "dist/index.js",
     "scripts": {
         "build": "rimraf dist && babel src --out-dir dist",
